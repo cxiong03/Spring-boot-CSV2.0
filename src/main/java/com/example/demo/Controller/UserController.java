@@ -35,4 +35,9 @@ public class UserController {
             return "Error: Users not found";
         }
     }
+
+    @GetMapping("test")
+    public String test() {
+        return "This is our test!";
+    }
 }
